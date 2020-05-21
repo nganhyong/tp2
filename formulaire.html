@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+<div id="meilleur">
+	<ul>
+		<li><a href="#">accueil</a></li>
+		<li><a href="blog.html">blog</a></li>
+		<li><a href="formulaire.html">formulaire</a></li>
+		<li><a href="login.html"> login</a></li><br><br>
+	</ul>
+</div>
+<div class="bonjour">
+  <h1>bienvenue sur mon site!!!!!!!!!</h1>
+	<form method="post">
+		<fieldset id="grand">
+			<legend>Informations personnelles</legend>
+			<label for="prénom">entrez votre prénom</label>
+			<input type="text" id="prénom" name="prénom" required="required"><br>
+			<label for="nom">entrez votre nom</label>
+			<input type="text" id="nom" name="nom" required="required"><br>
+			 Votre sexe?<br>
+			<input type="radio" id="homme" name="sexe" value="homme">
+			<label for="homme">homme</label><br>
+			<input type="radio" id="femme" name="sexe" value="femme">
+			<label for="femme">femme</label><br>
+			Quelle est votre tranche d'âge?
+			<select name="age">
+				<option value="moins de 20 ans">moins de 20 ans</option>
+				<option value="20 à 30 ans">20 à 30 ans</option>
+				<option value="30 à 40 ans"> 30 à 40 ans</option>
+				<option value="40 à 50 ans">40 à 50 ans</option>
+				<option value="plus de 50 ans">plus de 50 ans</option>
+			</select><br>
+		</fieldset><br>
+		<fieldset id="petit">
+			<legend>Informations supplémentaires</legend>
+
+		    Quel est votre sport favori?<br>
+
+			<input type="checkbox" name="sport" value="athletisme" id="athletisme">
+			<label for="athletisme">athletisme</label>
+			<input type="checkbox" name="sport" value="cyclisme" id="cyclisme">
+			<label for="cyclisme">cyclisme</label>
+			<input type="checkbox" name="sport" value="natation" id="natation">
+			<label for="natation">natation</label><br>
+
+			Où résidez vous?
+			<select name="pays">
+				<optgroup label="Amérique">
+					<option value="canada">Canada</option>
+				</optgroup>
+		        <optgroup label="Afrique">
+				    <option value="Cameroun">Cameroun</option>
+				    <option value="maroc">Maroc</option>
+				    <option value="Burkina Fasso">Burkina Fasso</option>
+				 </optgroup>
+				 <optgroup label="Europe">
+					<option value="Italie">Italie</option>
+					<option value="Belgique">Belgique</option>
+					<option value="France">France</option>
+				</optgroup>
+			</select><br><br>
+                Les jeux vidéo ont -ils une influence sur la jeunesse?
+            <select name="opinion">
+                	<option value="bonne">bonne</option>
+                	<option value="mauvaise">mauvaise</option>
+                	<option value="aucune">ne se prononce pas</option>
+             </select><br>
+			    	<label for="commentaire">faites un commentaire</label>
+			   		 <textarea id="commentaire" name="commentaire"></textarea><br>
+		 </fieldset>	
+					<input type="submit" value="envoyer"><br>
+
+	</form>
+</div>
+        <div id="footer">
+		     	<p><a class="footer-link" href="https://twitter.com"> twitter</a></p>
+	            <p><a class="footer-link" href="https://facebook.com">facebook</a></p>
+				<p class="para1">@ngan hyong 2020</p>
+	    </div>
+</body>
+</html>
